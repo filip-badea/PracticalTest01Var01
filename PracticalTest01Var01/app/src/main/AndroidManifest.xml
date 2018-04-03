@@ -16,6 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".PracticalTest01SecondaryActivity">
+            <intent-filter>
+                <action android:name="ro.pub.cs.systems.eim.practicaltest01.intent.action.PracticalTest01SecondaryActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".service.PracticalTest01Var01Service"
+            android:enabled="true"
+            android:exported="false" />
     </application>
 
 </manifest>

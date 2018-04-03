@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">PracticalTest01Var01</string>
+    <string name="North">North</string>
+    <string name="East">East</string>
+    <string name="West">West</string>
+    <string name="Second">Second Activity</string>
+    <string name="South">South</string>
+    <string name="register">Register</string>
+    <string name="cancel">Cancel</string>
 </resources>
